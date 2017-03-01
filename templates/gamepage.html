@@ -6,12 +6,15 @@
 </head>
 <body>
 
-<h1>Giotto</h1>
+<h1>Giotto</h1> 
 
-<input id="guess" name='guess'></input>
+<form action="/">
+<input id="guess" name="guess"></input>
+</form>
 
 <div id="guessed-words">
   <ul>
+    <li>{{ guessed_word }}: {{ overlap }}</li>
   </ul>
 </div>
 
